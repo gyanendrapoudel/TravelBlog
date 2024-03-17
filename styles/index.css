@@ -1,0 +1,246 @@
+body{
+    margin: 0px;
+}
+a{
+    list-style: none;
+    color: white;
+     text-decoration: none;
+}
+.welcome-container{
+    height: 20px;
+    background-color: rgb(77, 151, 151);
+    padding-top:10px;
+    display: flex;
+    justify-content: space-between;
+}
+.welcome-text{
+    margin-left: 2rem;
+}
+.links{
+    margin-right: 3rem;
+}
+.logo{
+    background-color: rgb(6, 6, 173);
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo-img{
+ margin-left: 1rem;
+ width: 40px;
+ height: 40px;
+ background-color: white;
+ border-radius: 50%;
+ border: 2px dotted gray;
+ 
+}
+
+.nav>a{
+    text-decoration: none;
+    color: white;
+    margin: 0 10px;
+   
+}
+.home, .contact,.about{
+    transition: font-size 0.15s;
+}
+.home:hover,.about:hover, .contact:hover{
+   color: red; 
+   font-size: 18px;
+}
+
+.nav{
+    margin-right: 3rem;
+}
+.bg-img{
+   
+    height: 400px;
+
+    background-image: url("/assets/pic-2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.welcome-description{
+    color: whitesmoke;
+    font-size: 18px;
+    background-color: rgba(40, 38, 38, 0.652);
+    padding:10px ;
+    box-shadow: 1px 1px 5px black;
+    border-radius: 4px;
+    text-align: center;
+}
+main{
+margin: 0px;
+ background-image: url('/assets/pic-3.jpg');
+}
+.main-items{
+    padding: 10px;
+  
+  
+}
+.post-text>p{
+    
+    font-size: 20px;
+    font-weight: 600;
+    border-bottom: 1px solid gray;
+    padding-bottom: 20px;
+   
+}
+.blogs-container{
+    display: flex;
+    justify-content: space-between;
+}
+.blog-contain{
+    background-color: white;
+    flex: 3;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    background-color: transparent
+    
+     
+
+    
+    
+}
+.side-content{
+    flex: 2;
+  
+    
+}
+.blog-1{
+    
+    display: flex;
+    justify-content: space-between;
+    box-shadow: -2px 2px 5px gray;
+    padding: 20px 10px;
+    position: relative;
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  
+    
+}
+.blog-1>img{
+ width: 200px;
+}
+
+.img-description{
+    flex: 1;
+    margin-left: 20px;
+  
+   
+  
+
+  
+}
+.read-btn{
+   padding: 6px 16px;
+   border-radius: 10px;
+   border: none;
+   cursor: pointer;
+   box-shadow: -1px 1px 3px rgb(93, 92, 92);
+   position: absolute;
+  right: 10px;
+  bottom: 10px;
+
+    
+}
+.side-content{
+   
+    margin-left: 20px;
+  
+  
+}
+.country-list h4, .date-list h4{
+    margin-top: 0px;
+    padding: 10px;
+}
+.country-list{
+
+
+   margin-bottom: 40px;
+   border-radius: 10px;
+   padding-bottom: 10px;
+   background-color: lightgreen;
+}
+.date-list{
+ background-color: lightgreen;
+  border-radius: 10px;
+  padding-bottom: 10px;
+}
+.recommendation-container{
+    /* background-color: forestgreen; */
+    margin: 10px 40px;
+}
+.carts{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap:2rem;
+
+
+}
+
+.cart-item>img{
+ width: 100%;
+ border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+ 
+}
+.cart-item{
+
+    width: 350px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+     border-radius: 10px;
+     background-color: rgb(255, 255, 255);
+     box-shadow: -1px 2px 5px rgb(104, 104, 104);
+    
+}
+.cart-description{
+  display: flex;
+  flex-direction: column;
+
+  padding: 0 10px;
+  padding-bottom: 10px;
+ 
+}
+.cart-description>h4{
+   margin-bottom: 0px;
+}
+.explore-btn, .submit-btn{
+   padding: 6px 16px;
+   border-radius: 8px;
+   border: none;
+   cursor: pointer;
+   box-shadow: -1px 1px 3px rgb(93, 92, 92);
+
+
+    
+}
+.footer-container{
+    font-size: 20px;
+    padding-top: 20px ;
+    padding-bottom: 30px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+    background-color: goldenrod;
+}
+.explore-btn{
+    background-color: aquamarine;
+}
+
+.footer-container input{
+    height: 32px;
+    border-radius: 8px;
+    border: none;
+    padding-left:10px;
+    box-shadow: inset 1px 1px 3px gray;
+}

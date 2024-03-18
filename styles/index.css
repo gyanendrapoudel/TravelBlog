@@ -67,10 +67,7 @@ a{
 }
 
 
-.img-section{
-    
-    background-color: aqua;
-}
+
 .bg-img{
     background-image: url("../assets/pic-1.jpg") ;
     background-repeat: no-repeat;
